@@ -1,0 +1,92 @@
+.home {
+    padding: 20px;
+  }
+  
+  .hero {
+    background: url('https://via.placeholder.com/1200x300') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+  }
+  
+  .about-company, .featured-products, .promotions, .consultation-form {
+    margin: 20px 0;
+  }
+  
+  .about-company h2, .featured-products h2, .promotions h2, .consultation-form h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .product-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .product-item p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .product-item span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .consultation-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .consultation-form input, .consultation-form textarea {
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+  }
+  
+  .consultation-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .consultation-form button:hover {
+    background-color: #0056b3;
+  }
+  
