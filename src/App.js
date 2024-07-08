@@ -8,6 +8,8 @@ import Products from './Pages/Products';
 import News from './Pages/News';
 import Careers from './Pages/Careers';
 import Contact from './Pages/Contact';
+import ScrollButton from './Components/ScrollButton';
+
 import './App.css';
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
         <Route path="/careers" element={<Careers />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <ScrollButton />
       <Footer />
     </Router>
   );
