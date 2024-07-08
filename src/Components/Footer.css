@@ -1,38 +1,48 @@
 .footer {
-    background-color: #f8f9fa;
-    padding: 20px 0;
-    text-align: left;
-    border-top: 1px solid #e7e7e7;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0 20px;
-  }
-  
-  .footer-column {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .footer-column h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .footer-column ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-column ul li a {
-    color: #343a40;
-    text-decoration: none;
-  }
-  
-  .footer-column p {
-    margin: 5px 0;
-  }
-  
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: left;
+  border-top: 1px solid #e7e7e7;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Căn đều khoảng cách giữa các cột */
+  align-items: stretch; /* Kéo dài các cột để chúng có cùng chiều cao */
+  padding: 0 20px;
+  gap: 20px; /* Khoảng cách giữa các cột */
+}
+
+.footer-column {
+  flex: 1;
+  text-align: left; /* Căn giữa nội dung trong từng cột */
+  margin: 0 10px; /* Khoảng cách giữa các cột */
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li{
+  margin-top: 10px;
+}
+
+.footer-column ul li a:hover {
+  color: #DD0000; /* Màu chữ thay đổi khi hover */
+  transform: scale(1.05); /* Phóng to nhẹ khi hover */
+}
+
+.footer-column ul li a {
+  color: #343a40;
+  text-decoration: none;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}

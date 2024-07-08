@@ -1,4 +1,5 @@
 import React from 'react';
+import FormContact from '../Components/FormContact';
 import './Home.css';
 
 function Home() {
@@ -38,19 +39,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="promotions">
-        <h2>Khuyến mãi</h2>
-        <p>Khuyến mãi đặc biệt cho tháng này...</p>
-      </section>
-      <section className="consultation-form">
-        <h2>Đăng ký tư vấn</h2>
-        <form>
-          <input type="text" placeholder="Tên của bạn" required />
-          <input type="email" placeholder="Email của bạn" required />
-          <textarea placeholder="Nội dung tư vấn" required></textarea>
-          <button type="submit">Gửi</button>
-        </form>
-      </section>
+      <FormContact />
     </div>
   );
 }

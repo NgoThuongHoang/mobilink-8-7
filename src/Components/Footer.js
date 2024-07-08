@@ -15,6 +15,8 @@ function Footer() {
             <li><a href="/">Trang chủ</a></li>
             <li><a href="/about">Giới thiệu</a></li>
             <li><a href="/products">Sản phẩm</a></li>
+            <li><a href="/news">Tin tức</a></li>
+            <li><a href="/careers">Tuyển dụng</a></li>
           </ul>
         </div>
         <div className="footer-column">

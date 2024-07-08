@@ -1,0 +1,69 @@
+/* File: FormContact.css */
+
+.form-container {
+    width: 97%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .form-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 96%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+
+  .required {
+    color: red;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .submit-btn {
+    width: 20%;
+    padding: 10px;
+    background-color: #3300CC;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+    display: block; /* Đảm bảo button là block element */
+    font-size: 17px;
+  }
+  
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
