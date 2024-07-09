@@ -1,13 +1,12 @@
 import React from 'react';
-import './Products.css';
+import './Products.css'; // Import your CSS file
+import ProductDisplay from '../Components/ProductDisplay';
 
 function Products() {
   return (
-    <div className="products-page">
-      <h1>Sản phẩm</h1>
-      <div className="product-list">
-        {/* Danh sách sản phẩm */}
-      </div>
+    <div className="products-container">
+      <h1 className="products-heading">Sản Phẩm</h1>
+      <ProductDisplay />
     </div>
   );
 }

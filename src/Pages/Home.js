@@ -1,6 +1,7 @@
 import React from 'react';
 import FormContact from '../Components/FormContact';
 import './Home.css';
+import ProductList from '../Components/ProductList';
 
 function Home() {
   return (
@@ -18,25 +19,7 @@ function Home() {
       <section className="featured-products">
         <h2>Sản phẩm nổi bật</h2>
         <div className="product-list">
-          {/* Thêm các sản phẩm mẫu */}
-          <div className="product-item">
-            <img src="https://via.placeholder.com/150" alt="Product 1" />
-            <h3>Sản phẩm 1</h3>
-            <p>Mô tả sản phẩm 1</p>
-            <span>Giá: $100</span>
-          </div>
-          <div className="product-item">
-            <img src="https://via.placeholder.com/150" alt="Product 2" />
-            <h3>Sản phẩm 2</h3>
-            <p>Mô tả sản phẩm 2</p>
-            <span>Giá: $200</span>
-          </div>
-          <div className="product-item">
-            <img src="https://via.placeholder.com/150" alt="Product 3" />
-            <h3>Sản phẩm 3</h3>
-            <p>Mô tả sản phẩm 3</p>
-            <span>Giá: $300</span>
-          </div>
+        <ProductList/>
         </div>
       </section>
       <FormContact />

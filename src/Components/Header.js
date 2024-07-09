@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logoImg from '../Images/logo.JPG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,7 +9,7 @@ function Header() {
   return (
     <header className="header">
       <Link to="/">
-        <img src={logoImg} alt="Mobilink Logo" className="logo" />
+        <img src='../Images/logo.JPG' alt="Mobilink Logo" className="logo" />
       </Link>
       <nav className="navigation">
         <ul className="nav-links">
