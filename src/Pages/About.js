@@ -4,8 +4,7 @@ import './About.css'; // Import CSS
 function About() {
   return (
     <div className="about-container">
-      <h1>Giới thiệu</h1>
-
+    {/* Mẫu */}
       <div className="content-wrapper">
         <div className="text-container">
           <p>Định hướng mà DND hướng đến là duy trì chất lượng sản phẩm cũng như dịch vụ tốt nhất để mang đến cho nhà bán lẻ, các cửa hàng sửa chữa, và khách hàng online. Ngoài ra, chúng tôi vẫn luôn tiếp tục tìm kiếm khách hàng mới, cũng như mở rộng danh mục sản phẩm nhằm tiếp tục mang đến những sản phẩm sang tạo nhất cho người tiêu dùng.</p>
@@ -14,18 +13,18 @@ function About() {
         </div>
         <div className="image-container">
           <img src="../anh1.jpg" alt="Hình ảnh làm việc tại công ty" />
-          <p>Hình ảnh làm việc tại công ty</p>
+          <p className="image-caption">Hình ảnh làm việc tại công ty</p>
         </div>
       </div>
 
       <div className="content-wrapper">
         <div className="image-container">
           <img src="../giới thiệu - 1.JPG" alt="Hình ảnh làm việc tại công ty" />
-          <p>Hình ảnh Thư ngỏ</p>
+          <p className="image-caption">Hình ảnh Thư ngỏ</p>
         </div>
         <div className="image-container">
           <img src="../giới thiệu - 2.JPG" alt="Hình ảnh làm việc tại công ty" />
-          <p>Hình ảnh GIẤY CHỨNG NHẬN</p>
+          <p className="image-caption">Hình ảnh GIẤY CHỨNG NHẬN</p>
         </div>
       </div>
 
