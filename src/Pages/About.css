@@ -1,0 +1,51 @@
+.about-container {
+    max-width: 98%; /* Chiếm 80% chiều rộng của màn hình */
+    margin: 0 auto; /* Căn giữa container */
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Căn giữa các phần tử trong .about-container */
+  }
+  
+  .about-container h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các phần tử chuyển dòng khi không đủ không gian */
+    justify-content: center; /* Căn giữa các container */
+    align-items: flex-start; /* Căn các phần tử từ trên xuống */
+  }
+  
+  .text-container,
+  .image-container {
+    width: calc(50% - 20px); /* Chiếm 50% chiều rộng của .content-wrapper và trừ đi khoảng cách */
+    margin: 10px; /* Khoảng cách giữa các container */
+    text-align: center;
+  }
+  
+  .text-container p,
+  .image-container p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .centered-text {
+    text-align: left; /* Căn lề trái cho văn bản ở cuối */
+    margin-top: 20px; /* Khoảng cách từ phần trên xuống */
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
