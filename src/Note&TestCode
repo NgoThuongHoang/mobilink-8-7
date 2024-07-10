@@ -3,3 +3,4 @@
       flex-basis: calc(50% - 10px); /* Adjust for smaller screens */
       max-width: calc(50% - 10px); /* Adjust for smaller screens */
     }
+}
