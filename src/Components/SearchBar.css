@@ -1,0 +1,12 @@
+.search-bar {
+    flex: 0 0 30%; /* Ensure the search bar takes up a maximum of 30% of the available space */
+    margin-right: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
