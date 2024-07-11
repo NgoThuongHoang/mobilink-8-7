@@ -1,97 +1,107 @@
 .about-container {
-    max-width:80%; /* Chiếm 80% chiều rộng của màn hình */
-    margin: 0 auto; /* Căn giữa container */
-    padding: 20px;
-    background-color: #f8f8f8;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Căn giữa các phần tử trong .about-container */
-  }
-  
-  .about-container h1 {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .content-wrapper {
-    display: flex;
-    flex-wrap: wrap; /* Cho phép các phần tử chuyển dòng khi không đủ không gian */
-    justify-content: center; /* Căn giữa các container */
-    align-items: flex-start; /* Căn các phần tử từ trên xuống */
-    margin-bottom: 20px;
-  }
-  
-  .text-container,
-  .image-container {
-    width: calc(50% - 20px); /* Chiếm 50% chiều rộng của .content-wrapper và trừ đi khoảng cách */
-    margin: 10px; /* Khoảng cách giữa các container */
-    text-align: center;
-    position: relative;
-    display: inline-block; /* Để div có thể co dãn theo nội dung bên trong */
-  }
-  
-  .text-container p,
-  .image-container p {
-    text-align: justify;
-    font-size: 1.2em;
-    color: #666;
-    line-height: 1.6;
-    margin: 0;
-  }
+  max-width: 80%; /* Chiếm 80% chiều rộng của màn hình */
+  margin: 0 auto; /* Căn giữa container */
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Căn giữa các phần tử trong .about-container */
+}
 
-  .image-caption {
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 0px 0px;
-    font-style: italic;
-  }
-  
-  
-  .image-container img {
-    max-width: 100%;
-    height: auto;
-    }
-  
-  .centered-text {
-    text-align: left; /* Căn lề trái cho văn bản ở cuối */
-    margin-top: 20px; /* Khoảng cách từ phần trên xuống */
-    font-size: 1.2em;
-    color: #666;
-    line-height: 1.6;
-  }
-  
-  .about-container {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .content-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 20px;
-  }
-  
-  .text-container {
-    flex: 1;
-    margin-right: 20px;
-    text-align: left; /* Align text to the left */
-  }
-  
-  .image-container {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .image-caption {
-    text-align: center;
-  }
-  
-  .centered-text {
-    text-align: left; /* Align text to the left */
-    margin-bottom: 20px;
-  }
-  
+.about-container h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép các phần tử chuyển dòng khi không đủ không gian */
+  justify-content: center; /* Căn giữa các container */
+  align-items: flex-start; /* Căn các phần tử từ trên xuống */
+  margin-bottom: 20px;
+}
+
+.text-container,
+.image-container {
+  width: calc(
+    50% - 20px
+  ); /* Chiếm 50% chiều rộng của .content-wrapper và trừ đi khoảng cách */
+  margin: 10px; /* Khoảng cách giữa các container */
+  text-align: center;
+  position: relative;
+  display: inline-block; /* Để div có thể co dãn theo nội dung bên trong */
+}
+
+.text-container p,
+.image-container p,
+.text-container dt {
+  text-align: justify; /* Căn đều chữ */
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.text-container p,
+.image-container p {
+  text-align: justify;
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0px 0px;
+  font-style: italic;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.centered-text {
+  text-align: left; /* Căn lề trái cho văn bản ở cuối */
+  margin-top: 20px; /* Khoảng cách từ phần trên xuống */
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.6;
+}
+
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.text-container {
+  flex: 1;
+  margin-right: 20px;
+  text-align: left; /* Align text to the left */
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.image-caption {
+  text-align: center;
+}
+
+.centered-text {
+  text-align: left; /* Align text to the left */
+  margin-bottom: 20px;
+}
