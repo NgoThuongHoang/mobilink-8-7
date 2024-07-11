@@ -62,3 +62,36 @@
     line-height: 1.6;
   }
   
+  .about-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .text-container {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image-caption {
+    text-align: center;
+  }
+  
+  .centered-text {
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px;
+  }
+  
