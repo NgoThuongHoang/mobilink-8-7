@@ -1,0 +1,21 @@
+/* Products.css */
+
+/* Style for the container */
+.products-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Style for the heading */
+  .products-heading {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Add more styles as needed for your ProductDisplay component */
+  
